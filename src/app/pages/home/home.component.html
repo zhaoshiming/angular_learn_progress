@@ -1,0 +1,11 @@
+<app-shared-head [msg]="'head'" [canback]="true"></app-shared-head>
+
+<p>
+  home works!
+  <!-- 这里的 $event是不可以更换的 -->
+  <app-test [name]="hello" [sex]="sex" (fuck)="fucked($event)"></app-test>
+  
+</p>
+<div class="tall">
+
+</div>
